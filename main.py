@@ -104,3 +104,4 @@ if keys[K_a]:
     platform.x -= platform_speed
 
 if not balls:
+    balls.append(Ball(400, 200, 10, 8, (255, 255, 255,)))
